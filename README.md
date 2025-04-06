@@ -12,32 +12,6 @@ An Android memory card matching game where players need to find matching images 
 - Upload and manage your own images
 - Sound effects for game interactions
 
-## Project Structure
-
-```
-Find-The-Match-Game/
-├── app/                        # Main application module
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/ca/cmpt276/project/
-│   │   │   │   ├── Flickr/     # Flickr API integration
-│   │   │   │   ├── Model/      # Game logic and data models
-│   │   │   │   └── UI/         # User interface components
-│   │   │   ├── res/            # Resources (layouts, drawables, etc.)
-│   │   │   └── AndroidManifest.xml
-│   │   ├── androidTest/        # Android instrumentation tests
-│   │   └── test/               # Unit tests
-│   ├── build.gradle            # App module build configuration
-│   └── proguard-rules.pro      # ProGuard rules
-├── docs/                       # Documentation
-├── gradle/                     # Gradle wrapper files
-├── build.gradle                # Project build configuration
-├── gradle.properties           # Gradle properties
-├── gradlew                     # Gradle wrapper script (Unix)
-├── gradlew.bat                 # Gradle wrapper script (Windows)
-└── settings.gradle             # Gradle settings
-```
-
 ## Getting Started
 
 ### Prerequisites
